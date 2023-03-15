@@ -1,0 +1,16 @@
+{
+  "id": "2811003",
+  "name": "ele-icon",
+  "font_family": "iconfont",
+  "css_prefix_text": "ele-icon-ali",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6992560",
+      "name": "仪表盘",
+      "font_class": "yibiaopan",
+      "unicode": "e834",
+      "unicode_decimal": 59444
+    }
+  ]
+}
