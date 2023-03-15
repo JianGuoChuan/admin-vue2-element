@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2811003 */
+  src: url('iconfont.woff2?t=1631590598163') format('woff2'),
+       url('iconfont.woff?t=1631590598163') format('woff'),
+       url('iconfont.ttf?t=1631590598163') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="ele-icon-ali"], [class*="ele-icon-ali"] {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.el-menu-item [class^=ele-icon-ali], 
+.el-menu-item [class*="ele-icon-ali"] 
+{
+  margin-right: 5px;
+  width: 24px;
+  text-align: center;
+  font-size: 18px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.ele-icon-aliyibiaopan:before {
+  content: "\e834";
+}
+

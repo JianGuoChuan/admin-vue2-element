@@ -1,0 +1,12 @@
+{
+	"success": true,
+	"data": [{
+			"createTime": "2019-08-20",
+			"data": ["从以下方面对前端性能展开优化：", "使用插件TerserPlugin,去除所有的console信息", "使用CompressionPlugin,开启gzip压缩",
+				"忽略生产环境打包文件,使用外链cdn", "图片压缩", "路由按需加载",
+				"使用optimization.minimize(true):压缩代码和optimization.splitChunks():分割代码"
+			]
+		},
+
+	]
+}
