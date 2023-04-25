@@ -1,0 +1,77 @@
+// 主题内容
+@theme-color: #fff;
+@button-color: #eb0029;
+@base-size: 14px;
+
+// 全局设置, 消除默认
+* {margin: 0;padding: 0;}
+html,body {width: 100%;height: 100%;}
+a {text-decoration: none;color: #999;}
+ul {list-style: none;}
+p {padding: 0;}
+
+// 宽高相关
+.width-all{width: 100%;}.height-all{height: 100%;}
+.width-half{width: 50%;}.height-half{height: 50%;}
+
+// 布局相关
+.dis-block{display: block;}.dis-in-block{display: inline-block;}.dis-inline{display: inline;}
+.float-left{float: left;}.float-right{float: right;}
+.flex{display: flex;}.inline-flex{display: inline-flex;}
+.flex-space-around{justify-content: space-around;}.flex-space-between{justify-content: space-between;}
+.flex-start{justify-content: flex-start;}.flex-center{justify-content: center;}.flex-end{justify-content: flex-end;}
+.flex-warp{flex-wrap: wrap;}
+.flex-dir-row{flex-direction: row;}.flex-dir-col{flex-direction: column;}
+.flex-1{flex: 1;}.flex-2{flex: 2;}.flex-3{flex: 3;}.flex-4{flex: 4;}.flex-5{flex: 5;}.flex-6{flex: 6;}
+.flex-7{flex: 7;}.flex-8{flex: 8;}.flex-9{flex: 9;}.flex-10{flex: 10;}.flex-11{flex: 11;}.flex-12{flex: 12;}
+
+// 定位相关
+.relative{position: relative;}.absolute{position: absolute;}.fixed{position: fixed;}
+.top-zero{top: 0;}.top-half{top: 50%;}.top-all{top: 100%;}
+.left-zero{left: 0;}.left-half{left: 50%;}.left-all{left: 100%;}
+.bottom-zero{bottom: 0;}.bottom-half{bottom: 50%;}.bottom-all{bottom: 100%;}
+.right-zero{right: 0;}.right-half{right: 50%;}.right-all{right: 100%;}
+.border-box{box-sizing: border-box;}
+
+// 容器相关
+.over-hidden{overflow: hidden;}.over-y-auto{overflow-y: auto;}.over-x-auto{overflow-x: auto;} // 超出是否显示滚动条
+.text-hidden{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;} // 文本超出隐藏显示省略号
+.text-indent{line-height: 1.2em;text-indent: 2em; font-style: normal;} // 文本首行缩进
+
+// 文本相关 支持12px-26px
+.font-xs{font-size: 12px;}.font-sm{font-size: 14px;}.font-com{font-size: 16px;}.font-md{font-size: 18px;}.font-xl{font-size: 20px;}.font-lg{font-size: 22px;}.font-lgx{font-size: 24px;}.font-lgc{font-size: 26px;}
+.font-bold{font-weight: 700;}
+.text-underline{text-decoration: underline;}
+.text-center{text-align: center;}.text-left{text-align: left;}.text-right{text-align: right;}
+.break-word{word-wrap: break-word;}.break-all{word-break:break-all;}
+.text-white{color: #fff;}.text-black{color: #000;}.text-grey{color: #999;}.text-lightGrey{color: #f0f0f0;}.text-whiteSmoke{color: #dcdcdc;}
+
+// 预设背景颜色
+.bg-white{background-color: #fff;}.bg-black{background-color: #000;}.bg-whiteSmoke{background-color: #dcdcdc;}
+
+// 边框相关
+.border-xs{border: 1px solid #dcdcdc;}.border-sm{border: 2px solid #dcdcdc;}
+.border-t-xs{border-top: 1px solid #dcdcdc;}.border-t-sm{border-top: 2px solid #dcdcdc;}
+.border-b-xs{border-bottom: 1px solid #dcdcdc;}.border-b-sm{border-bottom: 2px solid #dcdcdc;}
+.border-r-xs{border-right: 1px solid #dcdcdc;}.border-r-sm{border-right: 2px solid #dcdcdc;}
+.border-l-xs{border-left: 1px solid #dcdcdc;}.border-l-sm{border-left: 2px solid #dcdcdc;}
+.bRadius-xs{border-radius: 2px;}.bRadius-sm{border-radius: 5px;}.bRadius-md{border-radius: 10px;}
+.bRadius-lg{border-radius: 15px;}.bRadius-lgx{border-radius: 20px;}.bRadius-round{border-radius: 50%;}
+.border-lrt-sm{border-top-left-radius: 5px;border-top-right-radius: 5px;}.border-lrb-sm{border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+.border-lrt-md{border-top-left-radius: 10px;border-top-right-radius: 10px;}.border-lrb-md{border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
+.border-lrt-lg{border-top-left-radius: 15px;border-top-right-radius: 15px;}.border-lrb-lg{border-bottom-left-radius: 15px;border-bottom-right-radius: 15px;}
+.border-lrt-lgx{border-top-left-radius: 30px;border-top-right-radius: 30px;}.border-lrb-lgx{border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;}
+
+/* 阴影 */
+.shadow-warp{box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}.shadow-xs{box-shadow: 1 1 2px rgba(0, 0, 0, 0.1);}
+.shadow-xs-bottom{box-shadow: 0px 2px 2px #dcdcdc;}.shadow-md-bottom{box-shadow: 0px 5px 5px #dcdcdc;}
+
+// 动画-过渡相关
+.transition200{transition: 200ms;}.transition300{transition: 300ms;}.transition500{transition: 500ms;}.transition1000{transition: 1000ms;}
+.rotate0{transform:rotate(0deg);}.rotate180{transform:rotate(180deg);}.rotateF180{transform:rotate(-180deg);}.rotate90{transform:rotate(90deg);}.rotateF90{transform:rotate(-90deg);}
+.scale12{transform:scale(1.2);}.scale14{transform:scale(1.4);}.scale16{transform:scale(1.6);}.scale18{transform:scale(1.8);}.scale20{transform:scale(2.0);}
+
+// 其他
+.opacity02{opacity: 0.2;}.opacity04{opacity: 0.4;}.opacity06{opacity: 0.6;}.opacity08{opacity: 0.8;}
+.cursorPointer{ cursor: pointer; }
+.sticky{position: sticky;z-index: 9999;width: 100%;top: 0;left: 0;}
